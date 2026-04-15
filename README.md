@@ -1,45 +1,29 @@
-# Effortless Population of Grids and Charts from Pivot Field List: A Step-by-Step Guide
+# Effortless Population of Grids and Charts from Pivot Field List
 
+**Repository Description:** Integration of server-side pivot controls with dynamic client-side grid and chart visualization using ASP.NET Core and JavaScript.
 
 ## Overview
-This project showcases best practices for integrating server-side pivot field list functionality with client-side grid and chart rendering. It provides a complete example of how to build data-driven applications that allow users to dynamically configure and visualize data through pivot controls. The solution combines ASP.NET Core backend services with HTML5 and JavaScript frontend technologies for a seamless data visualization experience.
+This project demonstrates integrating server-side pivot field list functionality with client-side grid and chart rendering using ASP.NET Core backend services and HTML5/JavaScript frontend technologies.
 
 ## Features
-- **Server-Side Pivot Field List**: Leverages a robust server-side pivot component for efficient data handling
-- **Dynamic Grid Population**: Automatically populates data grids based on pivot configurations
-- **Interactive Charts**: Renders visual charts alongside grid data for comprehensive data analysis
-- **Real-Time Data Rendering**: Updates grids and charts in real-time as pivot settings change
-- **Cross-Platform Compatibility**: Built with standard web technologies for broad browser support
+- **Server-Side Pivot Field List**: Efficiently handles data with pivot components
+- **Dynamic Grid Population**: Auto-populates grids based on pivot configurations
+- **Interactive Charts**: Renders charts alongside grid data
+- **Real-Time Rendering**: Updates grids and charts as pivot settings change
+- **Cross-Platform**: Works with all modern browsers
 
 ## Prerequisites
-Before running this application, ensure you have the following installed:
-- **Visual Studio 2022** or later (Community, Professional, or Enterprise edition)
-- **.NET 8.0 SDK** or compatible runtime
-- **NuGet Package Manager** (included with Visual Studio)
-- A modern web browser (Chrome, Firefox, Edge, or Safari)
+- **Visual Studio 2022** or later
+- **.NET 8.0 SDK** or runtime
+- A modern web browser
 
 ## Installation & Setup
 
-Follow these steps to run the application:
-
-1. **Open the Project**
-   - Open the [PivotController](./PivotController/) solution in Visual Studio
-
-2. **Restore Dependencies**
-   - Dependent packages will be downloaded automatically from nuget.org upon opening the project
-   - Visual Studio will restore all required NuGet packages during the build process
-
-3. **Build and Run the Application**
-   - Build the solution in Visual Studio
-   - Run the application once the packages are downloaded
-
-4. **Configure the Client URL**
-   - Once the application is hosted locally, copy the localhost URL from the browser or Visual Studio output
-   - Paste this URL into the **Sample->pivot.js** file in the appropriate configuration variable
-
-5. **View the Results**
-   - Open the **Sample->pivot.html** file in your web browser
-   - The pivot field list will be populated with data, displaying interactive grids and charts
+1. **Open Project**: Open [PivotController](./PivotController/) in Visual Studio
+2. **Restore Dependencies**: NuGet packages restore automatically during build
+3. **Build and Run**: Build solution and run application
+4. **Configure URL**: Copy localhost URL into **Sample/pivot.js**
+5. **View Results**: Open **Sample/pivot.html** in browser
 
 ## Usage
-The application automatically handles the communication between the server-side pivot control and the client-side visualization components. Simply follow the setup steps above, and the grid and chart will render with sample data from the server.
+The application handles communication between server-side pivot controls and client-side visualization. Follow the installation steps to render grids and charts with sample data.
