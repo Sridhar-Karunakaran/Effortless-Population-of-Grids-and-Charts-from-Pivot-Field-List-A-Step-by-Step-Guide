@@ -192,5 +192,3 @@ For questions, issues, or suggestions:
 - 📧 Open an GitHub issue
 - 💬 Review the troubleshooting section above
 - 🔍 Check the project structure and code comments
-
----
